@@ -1,0 +1,141 @@
+/* Estilos para centrar el div en la pantalla */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.outer-div {
+    /* background-color: lightgray; */
+    /* border: 1px solid gray; */
+
+    padding: 30px;
+    border-radius: 10px;
+    /* height: 850px;  */
+    height: auto;
+    width: 1800px;
+}
+
+.menu-div {
+    /* background-color: lightgray;
+    border: 1px solid gray; */
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title-div {
+    /* background-color: rgb(211, 211, 211);
+    border: 1px solid rgb(17, 1, 1); */
+
+    padding: 20px;
+    border-radius: 10px;
+    height: 60px;
+}
+
+/* Estilos para el div interno */
+.inner-div {
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid gray;
+    background-color: rgb(173, 225, 230); */
+
+    padding: 10px;
+    height: 650px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #04AA6D;
+}
+
+
+
+/*********************************************************************************/
+
+tbody {
+    display:block;
+    height:570px;
+    overflow:auto;
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+
+/************************FORMS********************/
+
+.form_data {
+    margin: 50px auto;
+    width: 500px;
+    padding: 20px;
+    /* border-radius: 5px;
+    border: 1px solid #0056b3; */
+}
+
+.form_group {
+    margin-bottom: 15px;
+}
+
+.input_form {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.btn_form {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn_form:hover {
+    background-color: #0056b3;
+}
+
+.div_title {
+    display: flex;
+    justify-content: center;
+}

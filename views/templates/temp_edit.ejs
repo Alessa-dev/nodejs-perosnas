@@ -1,0 +1,21 @@
+<div class="form_data">
+    <form method="POST" action="/editar/<%= persona.id %>">
+        <div class="form_group">
+            <input type="text" class="input_form" name="nombre" placeholder="Nombre" required value="<%= persona.nombre %>">
+        </div>
+        <div class="form_group">
+            <input type="text" class="input_form" name="apellido" placeholder="Apellido" required value="<%= persona.apellido %>">
+        </div>
+        <div class="form_group">
+            <input type="text" class="input_form" name="cedula" placeholder="cedula" required value="<%= persona.cedula %>">
+        </div>
+        <div class="form_group">
+            <input type="number" class="input_form" name="edad" placeholder="Edad" required value="<%= persona.edad %>">
+        </div>
+        <div class="text_center">
+        <button type="submit" class="btn_form">Guardar Cambios</button>
+        </div>
+    </form>
+</div>
+
+
